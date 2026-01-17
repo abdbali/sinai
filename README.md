@@ -223,7 +223,134 @@ Bu proje, kelimelerin kodla yeniden rüya gördüğü bir alandır.
 
 ---
 
+
+
 *Sinan'ın Kelimeleri*
 *Kodlayanlar: Metehan Erendiz - Zeynep Sarı*
 *Rehberlik: @abdbali *
 
+---
+
+
+# TULPARIN RÜYASI
+
+## Yön Duyarlı Parçacıklarla Dijital Sergi
+<img width="1853" height="905" alt="Ekran görüntüsü 2026-01-17 141043" src="https://github.com/user-attachments/assets/695642cb-47bd-43c4-9449-a01bf567281d" />
+
+---
+
+## [TR] Proje Hakkında
+
+**Tulparın Rüyası**, ortaokul öğrencilerinin yazdığı kodlar ile oluşturulmuş, kamera hareketine duyarlı **etkileşimli bir dijital sergi çalışmasıdır**. Proje adını, Türk mitolojisinde özgürlüğü, hızı ve sezgiyi temsil eden **Tulpar** figüründen alır. Bu çalışmada Tulpar, fiziksel bir varlık olarak değil; **hareket, ışık ve rüya** kavramları üzerinden dijital bir imge olarak yeniden yorumlanır.
+
+İzleyicinin kamera karşısındaki hareketleri, ekrandaki parçacık yapısını etkiler. Böylece sergi, izleyicinin varlığıyla şekillenen canlı bir rüyaya dönüşür.
+
+---
+
+## Eğitimsel Yaklaşım
+
+Tulparın Rüyası, özellikle **ortaokul seviyesindeki öğrencilerin** aşağıdaki becerilerini geliştirmeyi hedefler:
+
+* Hareket–tepki ilişkisini anlama
+* Görüntü verisini (kamera) algoritmik olarak yorumlama
+* Fiziksel kavramları (ivme, sürtünme, geri çekilme) kod ile modelleme
+* Kodlamayı sanatsal bir ifade biçimi olarak kullanma
+
+Öğrenciler bu projede yalnızca ekrana bir görsel çizmez; **hareketi hisseden ve tepki veren bir sistem** kurar.
+
+---
+
+## Projenin Fikri
+
+Tulparın Rüyası’nda ekran, Tulpar’ın zihni gibi düşünülür:
+
+* Parçacıklar, Tulpar’ın hatıralarıdır
+* Kamera hareketi, rüyaya giren dış dünyadır
+* Bozulan ve tekrar toparlanan yapı, rüyanın akışını temsil eder
+
+Her hareket, rüyayı biraz değiştirir; fakat sistem her zaman kendi dengesini yeniden kurar.
+
+---
+
+## Nasıl Çalışır?
+
+Projede ekrandaki her parça, bir **parçacık (particle)** olarak ele alınır:
+
+* Parçacıklar sabit bir ızgara düzeninde başlar
+* Kamera görüntüsündeki ani hareketler algılanır
+* Hareket olan bölgelerde parçacıklar yön değiştirir
+* Parçacıklar zamanla tekrar kendi başlangıç konumlarına çekilir
+
+Bu yapı sayesinde:
+
+* Hareket **geçici bir etki** yaratır
+* Sistem hiçbir zaman tamamen dağılmaz
+* Rüya hissi korunur
+
+---
+
+## Öğrenciler Ne Kodladı?
+
+Ortaokul öğrencileri bu projede:
+
+* **p5.js** kullanarak tuval (canvas) oluşturdular
+* Kameradan görüntü almayı öğrendiler
+* Piksel farklarını hesaplayarak hareket algıladılar
+* Parçacıklara hız, ivme ve yumuşama (damping) eklediler
+* Görseli küçük parçalara bölerek yeniden birleştirdiler
+
+Kodlama süreci; deneyerek, gözlemleyerek ve birlikte tartışarak ilerledi.
+
+---
+
+## Kullanılan Teknolojiler
+
+* **HTML5**
+* **JavaScript**
+* **p5.js**
+* **Web Kamera (Video Capture)**
+
+Kullanılan temel kavramlar:
+
+* Piksel analizi
+* Vektörel hareket
+* Geri çağırma kuvveti (return force)
+* Animasyon döngüsü
+
+---
+
+## Sergi Deneyimi
+
+Tulparın Rüyası, izleyiciden **hareketsiz kalmasını istemez**.
+
+* Yaklaşıldıkça bozulur
+* Hareket edildikçe dalgalanır
+* Durulduğunda yeniden şekillenir
+
+Bu yönüyle sergi, izleyiciyle birlikte nefes alan bir dijital organizma gibidir.
+
+---
+
+## Amaç
+
+Bu proje ile:
+
+* Öğrencilerin kamera ve görüntü verisini yaratıcı amaçlarla kullanması
+* Algoritmik düşünmenin soyut değil, **gözle görülür** hâle gelmesi
+* STEAM yaklaşımının deneyimlenerek öğrenilmesi
+
+amaçlanmıştır.
+
+---
+
+## Son Söz
+
+**Tulparın Rüyası**, hareketin kodla hissedilebildiği; rüyanın algoritmalarla anlatıldığı bir öğrenci çalışmasıdır.
+
+Tulpar koşmaz — **titreşir, dağılır ve yeniden kurulur**.
+
+---
+
+*Tulparın Rüyası*
+*Kodlayanlar: Hatice Ceylan - Sultan Demirkıran*
+*Alanlar: Yaratıcı Kodlama · Dijital Sanat *
