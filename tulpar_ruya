@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Dijital Sergi - Yön Duyarlı Parçacıklar</title>
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.3/lib/p5.min.js"></script>
+  <style>
+    body { margin:0; background:black; display: flex; justify-content: center; align-items: center; height: 100vh; overflow: hidden; }
+  </style>
+</head>
+<body>
+<script>
+  let cam;
+  let img;
+  let prevFrame;
+  let grid = 12;
+  let particles = [];
+  let base64Image = "base-64";
+
+  function setup() {
+    createCanvas(800, 600);
+    pixelDensity(1);
+
+    if(base64Image && base64Image.startsWith("data:image")) {
+      img = createImg(base64Image, '', '', () => img.hide());
+    } else {
+      img = createImg('https://picsum.photos/id/28/800/600', '', '', () => img.hide());
+    }
+
+    cam = createCapture(VIDEO);
+    cam.size(80, 60);
+    cam.hide();
+
+    prevFrame = createImage(80, 60);
+
+    for (let y = 0; y < height; y += grid) {
+      for (let x = 0; x < width; x += grid) {
+        particles.push({
+          originX: x,
+          originY: y,
+          x: x,
+          y: y,
+          vx: 0,
+          vy: 0
+        });
+      }
+    }
+  }
+
+  function draw() {
+    background(0, 50);
+
+    cam.loadPixels();
+    prevFrame.loadPixels();
+
+    if (cam.pixels.length > 0) {
+      for (let i = 0; i < particles.length; i++) {
+        let p = particles[i];
+
+
+        let cx = floor(map(p.originX, 0, width, 0, cam.width));
+        let cy = floor(map(p.originY, 0, height, 0, cam.height));
+        let index = (cx + cy * cam.width) * 4;
+
+
+        let diffX = 0;
+        let diffY = 0;
+
+        if (index > 4 && index < cam.pixels.length - 4) {
+          diffX = cam.pixels[index] - cam.pixels[index + 4];
+          diffY = cam.pixels[index] - cam.pixels[index + (cam.width * 4)];
+        }
+
+
+        if (abs(diffX) > 40 || abs(diffY) > 40) {
+          p.vx += diffX * 0.1;
+          p.vy += diffY * 0.1;
+        }
+
+        p.vx *= 0.9;
+        p.vy *= 0.9;
+
+
+        p.vx += (p.originX - p.x) * 0.05;
+        p.vy += (p.originY - p.y) * 0.05;
+
+        p.x += p.vx;
+        p.y += p.vy;
+
+        // Çizim
+        let sx = map(p.originX, 0, width, 0, img.width || 800);
+        let sy = map(p.originY, 0, height, 0, img.height || 600);
+
+        image(img, p.x, p.y, grid, grid, sx, sy, grid, grid);
+      }
+    }
+
+    prevFrame.copy(cam, 0, 0, cam.width, cam.height, 0, 0, cam.width, cam.height);
+    prevFrame.updatePixels();
+  }
+</script>
+</body>
+</html>
