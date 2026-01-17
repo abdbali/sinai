@@ -2,7 +2,6 @@
 
 ## INDUSTRIAL DREAM: DIGITAL EXHIBITION
 
-<img width="500" height="497" alt="image" src="https://github.com/user-attachments/assets/6d34ae46-2a41-405e-86ca-304ccb5b777c" />
 <img width="1646" height="775" alt="image" src="https://github.com/user-attachments/assets/f41cb4ef-beb1-400e-b2e8-9e09f94120fe" />
 
 
