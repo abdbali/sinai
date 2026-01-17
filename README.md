@@ -230,18 +230,17 @@ Bu proje, kelimelerin kodla yeniden rüya gördüğü bir alandır.
 *Rehberlik: @abdbali *
 
 ---
+<img width="1853" height="905" alt="Ekran görüntüsü 2026-01-17 141043" src="https://github.com/user-attachments/assets/695642cb-47bd-43c4-9449-a01bf567281d" />
 
-
-# TULPARIN RÜYASI
+# TULPARIN YOLCULUĞU
 
 ## Yön Duyarlı Parçacıklarla Dijital Sergi
-<img width="1853" height="905" alt="Ekran görüntüsü 2026-01-17 141043" src="https://github.com/user-attachments/assets/695642cb-47bd-43c4-9449-a01bf567281d" />
 
 ---
 
 ## [TR] Proje Hakkında
 
-**Tulparın Rüyası**, ortaokul öğrencilerinin yazdığı kodlar ile oluşturulmuş, kamera hareketine duyarlı **etkileşimli bir dijital sergi çalışmasıdır**. Proje adını, Türk mitolojisinde özgürlüğü, hızı ve sezgiyi temsil eden **Tulpar** figüründen alır. Bu çalışmada Tulpar, fiziksel bir varlık olarak değil; **hareket, ışık ve rüya** kavramları üzerinden dijital bir imge olarak yeniden yorumlanır.
+**Tulparın Yolculuğu**, ortaokul öğrencilerinin yazdığı kodlar ile oluşturulmuş, kamera hareketine duyarlı **etkileşimli bir dijital sergi çalışmasıdır**. Proje adını, Türk mitolojisinde özgürlüğü, hızı ve sezgiyi temsil eden **Tulpar** figüründen alır. Bu çalışmada Tulpar, fiziksel bir varlık olarak değil; **hareket, ışık ve rüya** kavramları üzerinden dijital bir imge olarak yeniden yorumlanır.
 
 İzleyicinin kamera karşısındaki hareketleri, ekrandaki parçacık yapısını etkiler. Böylece sergi, izleyicinin varlığıyla şekillenen canlı bir rüyaya dönüşür.
 
@@ -249,7 +248,7 @@ Bu proje, kelimelerin kodla yeniden rüya gördüğü bir alandır.
 
 ## Eğitimsel Yaklaşım
 
-Tulparın Rüyası, özellikle **ortaokul seviyesindeki öğrencilerin** aşağıdaki becerilerini geliştirmeyi hedefler:
+Tulparın Yolculuğu, özellikle **ortaokul seviyesindeki öğrencilerin** aşağıdaki becerilerini geliştirmeyi hedefler:
 
 * Hareket–tepki ilişkisini anlama
 * Görüntü verisini (kamera) algoritmik olarak yorumlama
@@ -262,7 +261,7 @@ Tulparın Rüyası, özellikle **ortaokul seviyesindeki öğrencilerin** aşağ�
 
 ## Projenin Fikri
 
-Tulparın Rüyası’nda ekran, Tulpar’ın zihni gibi düşünülür:
+Tulparın Yolculuğu’nda ekran, Tulpar’ın zihni gibi düşünülür:
 
 * Parçacıklar, Tulpar’ın hatıralarıdır
 * Kamera hareketi, rüyaya giren dış dünyadır
@@ -321,7 +320,7 @@ Kullanılan temel kavramlar:
 
 ## Sergi Deneyimi
 
-Tulparın Rüyası, izleyiciden **hareketsiz kalmasını istemez**.
+Tulparın Yolculuğu, izleyiciden **hareketsiz kalmasını istemez**.
 
 * Yaklaşıldıkça bozulur
 * Hareket edildikçe dalgalanır
@@ -345,12 +344,12 @@ amaçlanmıştır.
 
 ## Son Söz
 
-**Tulparın Rüyası**, hareketin kodla hissedilebildiği; rüyanın algoritmalarla anlatıldığı bir öğrenci çalışmasıdır.
+**Tulparın Yolculuğu**, hareketin kodla hissedilebildiği; rüyanın algoritmalarla anlatıldığı bir öğrenci çalışmasıdır.
 
 Tulpar koşmaz — **titreşir, dağılır ve yeniden kurulur**.
 
 ---
 
-*Tulparın Rüyası*
+*Tulparın Yolculuğu*
 *Kodlayanlar: Hatice Ceylan - Sultan Demirkıran*
-*Alanlar: Yaratıcı Kodlama · Dijital Sanat *
+*Alanlar: Yaratıcı Kodlama · Dijital Sanat*
