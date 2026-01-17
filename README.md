@@ -225,5 +225,5 @@ Bu proje, kelimelerin kodla yeniden rüya gördüğü bir alandır.
 
 *Sinan'ın Kelimeleri*
 *Kodlayanlar: Metehan Erendiz - Zeynep Sarı*
-*Rehberlik: Yaratıcı Kodlama *
+*Rehberlik: @abdbali *
 
