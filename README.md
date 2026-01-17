@@ -115,3 +115,115 @@ This project is developed as an educational and artistic initiative. All student
 
 *Sinai Rüya / Industrial Dream*
 *Where literature becomes code, and code becomes a dream.*
+
+
+<img width="1859" height="879" alt="image" src="https://github.com/user-attachments/assets/8027cc1e-a4b3-4a92-8ca2-0a6fe6306c86" />
+
+
+# SİNAN'IN KELİMELERİ
+
+## Dijital Metin • Hareket • Kod
+
+---
+
+## [TR] Proje Hakkında
+
+**Sinan'ın Kelimeleri**, ortaokul öğrencilerinin yazdığı kodlar aracılığıyla hayata geçirilen, edebiyat ve yaratıcı kodlamayı buluşturan **etkileşimli bir dijital sanat projesidir**. Proje, *Sinan Ata Biniyor* adlı edebi eserden yola çıkarak; metindeki kelimelerin, duyguların ve imgelerin ekranda **hareket eden, birbirine bağlanan ve dönüşen** bir yapıya kavuşmasını amaçlar.
+
+Bu çalışmada öğrenciler, kelimeleri yalnızca okumakla kalmaz; onları **algoritmalarla yönlendirilen dijital varlıklara** dönüştürür. Böylece metin, sabit bir anlatı olmaktan çıkar ve yaşayan bir görsel rüyaya dönüşür.
+
+---
+
+## Projenin Eğitimsel Yaklaşımı
+
+Sinan'ın Kelimeleri projesi, özellikle **ortaokul seviyesindeki öğrenciler** için tasarlanmıştır ve aşağıdaki kazanımları hedefler:
+
+* Kodlama yoluyla **soyut düşünme** becerisi geliştirme
+* Edebi bir metni **parçalara ayırma ve yeniden yorumlama**
+* Kelimeler ile görsel hareket arasında **neden–sonuç ilişkisi kurma**
+* Sanat ve teknolojinin birlikte üretim yapabileceğini deneyimleme
+
+Öğrenciler bu süreçte yalnızca "kod yazan" değil; aynı zamanda **tasarlayan, düşünen ve anlatan** bireyler hâline gelir.
+
+---
+
+## Nasıl Çalışır?
+
+Projede her kelime, ekranda hareket eden bir nokta (veya düğüm) olarak ele alınır:
+
+* Kelimeler rastgele konumlarda başlar
+* Her kelimenin kendi yönü ve hızı vardır
+* Yakınlaşan kelimeler arasında **vektörel çizgiler** oluşur
+* Bu çizgiler, kelimeler arası anlam bağlarını temsil eder
+* Sistem sürekli çalışır ve her an yeni bir kompozisyon üretir
+
+Bu yapı sayesinde, aynı kelimelerle bile **hiçbir an bir öncekine benzemez**.
+
+---
+
+## Öğrenciler Ne Kodladı?
+
+Ortaokul öğrencileri bu projede:
+
+* HTML ile temel sayfa yapısını oluşturdular
+* CSS ile karanlık, rüya benzeri görsel atmosfer tasarladılar
+* JavaScript kullanarak:
+
+  * Kelimelerin hareketini
+  * Hız ve yön hesaplamalarını
+  * Kelimeler arası mesafeye göre çizilen çizgileri
+  * Rastlantısallık (random) mantığını
+
+kendileri yazdılar ve test ettiler.
+
+Kodlama süreci, **deneme–yanılma**, **gözlem** ve **yaratıcı kararlar** ile ilerledi.
+
+---
+
+## Kullanılan Teknolojiler
+
+* **HTML5** – Yapı
+* **CSS3** – Görsel atmosfer ve tipografi
+* **JavaScript (Canvas API)** – Hareket, vektörler ve etkileşim
+
+Ek olarak:
+
+* Rastgelelik (Math.random)
+* Vektörel mesafe hesapları
+* Animasyon döngüsü (requestAnimationFrame)
+
+---
+
+## Sergi Deneyimi
+
+Sinan'ın Kelimeleri, izleyiciye **sabit bir görsel sunmaz**. Bunun yerine:
+
+* Sürekli değişen
+* Canlı
+* Rüya hissi veren
+
+bir dijital alan oluşturur. Kelimeler bazen birbirine yaklaşır, bazen uzaklaşır; bazen yoğun bir ağ kurar, bazen yalnız kalır. Bu durum, çocukların metni algılama biçiminin dijital bir yansımasıdır.
+
+---
+
+## Amaç
+
+Bu proje ile amaçlanan:
+
+* Kodlamayı bir **ifade aracı** olarak tanıtmak
+* Edebiyat ile teknolojiyi aynı üretim alanında buluşturmak
+* Öğrencilerin "ben de yapabilirim" duygusunu güçlendirmek
+* STEAM yaklaşımını somut ve erişilebilir hâle getirmek
+
+---
+
+**Sinan'ın Kelimeleri**, bir metnin yalnızca okunmadığını; kodlanabildiğini, hareket edebildiğini ve yeniden hayal edilebildiğini gösteren bir öğrenci çalışmasıdır.
+
+Bu proje, kelimelerin kodla yeniden rüya gördüğü bir alandır.
+
+---
+
+*Sinan'ın Kelimeleri*
+*Kodlayanlar: Metehan Erendiz - Zeynep Sarı*
+*Rehberlik: Yaratıcı Kodlama *
+
